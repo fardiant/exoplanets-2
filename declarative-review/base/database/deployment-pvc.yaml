@@ -80,7 +80,7 @@ spec:
           terminationMessagePath: /dev/termination-log
           volumeMounts:
             - mountPath: /var/lib/pgsql/data
-              name: database-datas
+              name: database-data
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       volumes:
